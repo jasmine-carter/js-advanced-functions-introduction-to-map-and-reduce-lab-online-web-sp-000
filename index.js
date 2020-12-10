@@ -36,7 +36,7 @@ function reduceToTotal(sourceArray, startingPoint) {
   let finalValue
     for (const element of sourceArray) {
       element + finalValue
-      console.logy(element + finalValue)
+      console.log(element + finalValue)
   }
   if (startingPoint === null) {
     return finalValue
