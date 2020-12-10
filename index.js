@@ -47,3 +47,10 @@ function reduceToAllTrue(sourceArray) {
   }
   return false
 }
+
+function reduceToAllTrue(sourceArray) {
+  for (const element of sourceArray) {
+    if (sourceArray[element]) return false
+  }
+  return true
+}
