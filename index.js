@@ -33,7 +33,7 @@ function mapToSquare(sourceArray) {
 };
 
 function reduceToTotal(sourceArray, startingPoint) {
-  let finalValue
+  let finalValue = 0
     for (const element of sourceArray) {
       element + finalValue
       console.log(element + finalValue)
