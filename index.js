@@ -39,9 +39,10 @@ function reduceToTotal(sourceArray, startingPoint) {
   }
   if (startingPoint === null) {
     return finalValue
-    console.log(finalValue)
+    console.log(`no starting point ${finalValue}`)
   }
   else {
     return finalValue + startingPoint
+    console.log(`starting point ${finalValue}`)
   }
 }
