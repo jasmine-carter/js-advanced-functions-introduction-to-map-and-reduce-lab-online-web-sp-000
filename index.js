@@ -4,5 +4,5 @@ function mapToNegativize(sourceArray) {
   for (const element of sourceArray) {
     newArray.push(-Math.abs(element))
   }
-  newArray
+  return newArray
 }
