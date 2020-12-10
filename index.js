@@ -14,4 +14,12 @@ function mapToNegativize(sourceArray) {
 function mapToNoChange(sourceArray) {
   let newArray = sourceArray
   return newArray
+};
+
+function mapToDouble(sourceArray) {
+  let newArray = []
+  for (const element of sourceArray) {
+    newArray.push(element * 2)
+  }
+  return newArray
 }
