@@ -39,4 +39,11 @@ function reduceToTotal(sourceArray, startingPoint=0) {
       console.log(finalValue)
   }
   return finalValue + startingPoint
+};
+
+function reduceToAllTrue(sourceArray) {
+  for (const element of sourceArray) {
+    if (!sourceArray[element]) return true
+  }
+  return false
 }
