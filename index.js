@@ -32,18 +32,11 @@ function mapToSquare(sourceArray) {
   return newArray
 };
 
-function reduceToTotal(sourceArray, startingPoint) {
+function reduceToTotal(sourceArray, startingPoint=0) {
   let finalValue = 0
     for (const element of sourceArray) {
       finalValue += element
       console.log(finalValue)
   }
-  if (startingPoint === null) {
-    return finalValue
-    console.log(`no starting point ${finalValue}`)
-  }
-  else {
-    return finalValue + startingPoint
-    console.log(`starting point ${finalValue}`)
-  }
+  return finalValue + startingPoint
 }
