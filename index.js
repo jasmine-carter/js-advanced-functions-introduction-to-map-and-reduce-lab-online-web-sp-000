@@ -41,9 +41,9 @@ function reduceToTotal(sourceArray, startingPoint=0) {
   return finalValue + startingPoint
 };
 
-function reduceToAllTrue(src) {
-  for (let i = 0; i < src.length; i++ ) {
-    if (!src[i]) return false
+function reduceToAllTrue(sourceArray) {
+  for (let i = 0; i < sourceArray.length; i ++) {
+    if (!sourceArray[i]) return false
   }
   return true
 }
