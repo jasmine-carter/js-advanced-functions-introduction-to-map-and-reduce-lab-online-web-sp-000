@@ -9,4 +9,9 @@ function mapToNegativize(sourceArray) {
     newArray.push(Math.abs(element))
   }
   return newArray
+};
+
+function mapToNoChange(sourceArray) {
+  let newArray = sourceArray
+  return newArray
 }
